@@ -1,0 +1,124 @@
+ <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Login form </title>
+    <link rel="stylesheet" href="form.css">
+    <!-- Font Awesome Cdn Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <link rel="stylesheet" href="login.css">
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+    
+<body>
+        <!-- start header here -->
+
+
+         <!-- start content here -->
+    <div class="content">  
+        <div class="container">
+            <div class="forms">
+                <!-- login Form -->
+                <div class="form login">
+                    <span class="title">Welcome Back!</span>
+                    <div class="log"><h5>Login to continue</h5></div>
+                    
+    
+                    <form action="#"method ="post">
+                        <div class="input-field">
+                            <input type="text" name="firstName" placeholder="Enter your email" required>
+                            <i class="uil uil-envelope icon"></i>
+                        </div>
+                        <div class="input-field">
+                            <input type="password" class="password" name="password" placeholder="Enter your password" required>
+                            <i class="uil uil-lock icon"></i>
+                            <i class="uil uil-eye-slash showHidePw"></i>
+                        </div>
+    
+                        <div class="checkbox-text">
+                            <div class="checkbox-content">
+                                <input type="checkbox" id="logCheck">
+                                <label for="logCheck" class="text"value="yes">Remember me</label>
+                            </div>
+    
+                            <a href="#" class="text">Forgot password?</a>
+                        </div>
+    
+                        <div class="input-field button">
+                            <input type="button" value="Login">
+                        </div>
+                        
+                    </form>
+    
+                    <div class="login-signup">
+                        <span class="text">Don't have an account?
+                            <a href="http://localhost:3000/" class="text signup-link">Signup Now!</a>
+                            <h5>or login with</h5>
+                        </span>
+                       
+                    </div>
+                </div>
+    
+                <!-- Registration Form -->
+                <div class="form signup">
+                    <span class="title">Creat Account</span>
+    
+                    <form action="#">
+                        <div class="input-field">
+                            <input type="text" placeholder="Enter your name" required>
+                            <i class="uil uil-user"></i>
+                        </div>
+                        <div class="input-field">
+                            <input type="text" placeholder="Enter your email" required>
+                            <i class="uil uil-envelope icon"></i>
+                        </div>
+                        <div class="input-field">
+                            <input type="password" class="password" placeholder="Create your password" required>
+                            <i class="uil uil-lock icon"></i>
+                        </div>
+                        <div class="input-field">
+                            <input type="password" class="password" placeholder="Confirm your password" required>
+                            <i class="uil uil-lock icon"></i>
+                            <i class="uil uil-eye-slash showHidePw"></i>
+                        </div>
+                        <div class="input-field">
+                            <input type="text" placeholder="Enter your Phone Number" required>
+                            <i class="uil uil-user"></i>
+                        </div>
+                        <div class="checkbox-text">
+                            <div class="checkbox-content">
+                                <input type="checkbox" id="termCon">
+                                <label for="termCon" class="text">I accepted all terms and conditions</label>
+                            </div>
+                        </div>
+    
+                        <div class="input-field button">
+                            <input type="button" value="Signup">
+                        </div>
+                    </form>
+    
+                    <div class="login-signup">
+                        <span class="text">Already have an account?
+                            <a href="#" class="text login-link">Login Now!</a>
+                            <h5>or register with</h5>
+                        </span>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="icons">
+                <i class="fab fa-google">       Google</i>
+            </div> 
+        </div>
+    </div>
+     <!-- content ends here -->
+
+     <!-- start footer here -->
+
+
+    <script src="form.js"></script>
+</body>
+
+</html> 
