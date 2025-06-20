@@ -9,6 +9,7 @@ app.use(express.static('public'))
 app.use(bodyParser.urlencoded({
     extended:true
 }))
+
 const CONNECTION_URL = 'mongodb+srv://CSE299:cse299@cluster0.ijbv3kd.mongodb.net/?retryWrites=true&w=majority';
 mongoose.connect('mongodb://localhost:27017/CSE299',{
     useNewUrlParser: true,
