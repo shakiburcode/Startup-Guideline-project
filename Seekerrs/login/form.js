@@ -5,6 +5,7 @@ const container = document.querySelector(".container"),
       login = document.querySelector(".login-link");
 
 
+
     //   js code to show/hide password and change icon
     pwShowHide.forEach(eyeIcon =>{
         eyeIcon.addEventListener("click", ()=>{
