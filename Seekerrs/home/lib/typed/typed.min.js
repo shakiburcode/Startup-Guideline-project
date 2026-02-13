@@ -1,3 +1,4 @@
+
 /*!
  * 
  *   typed.js - A JavaScript Typing Animation Library
