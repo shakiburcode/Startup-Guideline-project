@@ -1,3 +1,4 @@
+
 const Ddata = [
   {
     cover: "./images/discount/discount-1.png",
